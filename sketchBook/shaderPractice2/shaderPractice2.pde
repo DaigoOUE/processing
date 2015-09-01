@@ -8,8 +8,6 @@ void setup() {
 }
 
 void draw() {
-  sd.set("mouseX", mouseX);
-  sd.set("mouseY", mouseY);
   sd.set("times",times);
   shader(sd);
   rect(0, 0, width, height);
